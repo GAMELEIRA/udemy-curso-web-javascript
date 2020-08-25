@@ -12,9 +12,9 @@ console.log("Setença "+
 //BLOCO DE CODIGO 1
 {
     //BLOCO INTERNO AO BLOCO DE CODIGO 1
-    {
+    { 
         console.log("Olá!");
-        
+
         console.log('Mundo!');
         
     }
