@@ -28,7 +28,7 @@ const prod2 = {
         pessoa: {
 
             nome: "Gabriel"
-            
+
         }
 
     }
@@ -36,3 +36,9 @@ const prod2 = {
 }
 
 console.log(prod2);
+
+if('abcde'.length == 5){
+
+    console.log("Foi!");
+
+}
