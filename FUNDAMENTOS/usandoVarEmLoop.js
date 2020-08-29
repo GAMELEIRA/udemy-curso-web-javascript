@@ -1,0 +1,14 @@
+/**
+ * AUTOR: GABRIEL GAMELEIRA DOS SANTOS
+ * DATA: 29/08/2020
+ * HORA: 01:54
+ * FINALIDADE DE PROGRAMA: APRESENTAR CONCEITOS RELACIONADOS AO DECLARACAO DE VARIAVEIS USANDO VAR
+ */
+
+ for(var i = 0; i < 10; i++){
+
+    console.log(i);
+ 
+}
+
+console.log("i = ".concat(i));
