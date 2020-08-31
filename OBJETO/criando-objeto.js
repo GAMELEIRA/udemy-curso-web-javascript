@@ -76,3 +76,5 @@ console.log(filha);
 const fromJson = JSON.parse('{"info": "Sou um JSON" }');
 
 console.log(fromJson);
+
+Object.freeze(fromJson);//NAO E PERMITDO ALTERAR MAIS NENHUMA PROPRIEDADE DESSE OBJETO
