@@ -1,7 +1,7 @@
 /**
  * AUTOR: GABRIEL GAMELEIRA DOS SANTOS
  * DATA: 05/09/2020
- * HORA: 16:46
+ * HORA: 16:46'
  * FINALIDADE DE PROGRAMA: ENTENDER A NOTACAO DE DECLARACAO DE ARRAY E ALGUMAS FUNCOES
  */
 
@@ -44,3 +44,12 @@ console.log(typeof quaseArray);
 console.log(quaseArray == Array);
 
 console.log(quaseArray == Object);
+
+
+function diz(params) {
+    console.log( "OI");
+}
+
+const a = diz;
+
+a();
