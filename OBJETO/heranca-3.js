@@ -9,7 +9,7 @@
 const pai = { nome: "Pedro", corCabelo: "Petro" }
 
 const filha1 = Object.create(pai);
-
+  
 filha1.nome = "Ana";
 
 console.log(filha1.corCabelo);

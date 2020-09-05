@@ -22,10 +22,10 @@
 
  }
 
- console.log(ferrari.__proto__)
+ console.log(ferrari.__proto__) //PROTOTYPE
 
- console.log(ferrari.__proto__ === Object.prototype)
+ console.log(ferrari.__proto__ === Object.prototype) //TRUE
 
- console.log(volvo.__proto__ === Object.prototype)
+ console.log(volvo.__proto__ === Object.prototype) //TRUE
 
- console.log(Project.prototype._proto__ === null)
+ console.log(Object.prototype.__proto__ === null) //TRUE
