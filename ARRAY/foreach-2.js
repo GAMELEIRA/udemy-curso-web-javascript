@@ -17,6 +17,8 @@ Array.prototype.forEach2 = (funcao) => {
 
 const aprovados = ["Agatha", "Aldo", "Daniel", "Raquel"];
 
-aprovados.forEach()
+aprovados.forEach(() => {
+
+});
 
 aprovados.forEach2()
