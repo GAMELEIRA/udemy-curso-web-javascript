@@ -14,9 +14,11 @@
 
     <nav>
 
-        <a href="exercicios/teste.html">00 - Teste</a>
+        <a href="./EXERCICIOS/teste.html">00 - Teste | </a>
 
-        <a href="exercicios/texto-1.html">01 - Texto</a>
+        <a href="./EXERCICIOS/texto-01.html">01 - Texto | </a>
+
+        <a href="./EXERCICIOS/texto-02.html">02 - Texto | </a>
 
     </nav>
 
@@ -41,14 +43,14 @@
                 evento.preventDefault();
 
                 console.log("OI")
-                
+
                 const conteudo = document.getElementById('conteudo')
 
                 fetch(link.href)
-                
-                .then(resp => resp.text())
-                
-                .then(html => conteudo.innerHTML = html);
+
+                    .then(resp => resp.text())
+
+                    .then(html => conteudo.innerHTML = html);
 
 
             })
