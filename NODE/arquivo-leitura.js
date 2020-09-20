@@ -1,4 +1,10 @@
-const { Console } = require('console');
+/**
+ * AUTOR: GABRIEL GAMELEIRA DOS SANTOS
+ * DATA: 20/09/2020
+ * HORA: 04:36
+ * FINALIDADE DE PROGRAMA: TRABALHAR COM A LEITURA DE ARQUVIOS
+*/
+
 const fs = require('fs');
 
 const caminho = __dirname + '/arquivo.json'
