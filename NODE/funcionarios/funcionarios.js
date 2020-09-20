@@ -9,7 +9,7 @@ const url = 'http://files.cod3r.com.br/curso-js/funcionarios.json';
 
 const axios = require("axios");
 
-const buscarMulheres = (funcionarios) => funcionarios.filter(funcionario => funcionario.genero == "M");
+const buscarMulheres = (funcionarios) => funcionarios.filter(funcionario => funcionario.genero == "F");
 
 const buscarMulheresChinesas = (mulheres) => mulheres.filter(mulher => mulher.pais == "China");
 
